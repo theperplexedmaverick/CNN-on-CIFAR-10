@@ -12,7 +12,7 @@ accuracy with negligible additional computational time.
 ### 1.1 Initialization
 We start out by importing the CIFAR-10 dataset from keras and displaying one image(32X32) from each
 of the 10 classes in the dataset as shown below:-
-
+![Image](https://github.com/theperplexedmaverick/CNN-on-CIFAR-10/blob/master/Figure_1.png)
 The images are then Z-score (mean-std) normalized because it results in similarly-ranged feature val-
 ues and it ensures that the gradients don’t go out of control (need one global learning rate multiplier).
 Finally we convert out training sets to binary encodings for easy classification.
